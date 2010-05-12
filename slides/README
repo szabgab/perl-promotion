@@ -1,0 +1,36 @@
+
+The Plan is to create several short slide shows with 
+narrative that can be used to show the highlights of 
+a project to a couple of people.
+
+When preparing a slide show try to imagine what would
+you show to a co-worker if she asked you about the project?
+You know she does not have a lot of time, a few minutes max,
+you don't want to teach her how to use the thing you just would
+like to make her interested in the project so she will
+hopefully try to learn about a bit more.
+
+The major use case of these slides would be at conferences
+where you have a Perl booth and visitors come by. You give
+a post-card to them with the logos of a number of projects.
+If he is interested you walk through each item sayin a few
+words about each project. If one of them seems to be more
+interesting for him you can direct him to a free computer 
+screen and show the relevant slides. 
+The key of course there too is the interaction with the
+other person, to get him ask questions.
+
+The slides should have accompaining narrative so that anyone
+with reasonable Perl background can go through the slides and
+exmplain about them. If the person asks questions that the
+presenter does not know how to answer it is not a problem.
+Either there is someone at the booth who is more expert in the 
+subject or this can be used as an opportunity to direct the 
+person to the relevant IRC channel, web forum or mailing list.
+It could also be the chance to ask for his details such as name
+and e-mail and be in touch with him after the event.
+
+
+Format:
+I'll try to write the first one using Markdown and we'll see.
+

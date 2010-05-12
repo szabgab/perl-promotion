@@ -1,0 +1,193 @@
+Rakudo and Perl 6
+=================
+
+
+Perl 6 is a new dialect of the Perl language family,
+a sibling of Perl 5.
+
+As opposed to Perl 5, Perl 6 has a definition and can have several
+implementations.
+
+Currently the most advanced implementation is called Rakudo.
+It runs on top of the Parrot Virtual Machine.
+
+
+Status
+=======
+
+Both Perl 6 and Rakudo is under heavy development.
+
+Rakudo *, the first reasonably usable version of it is planned to
+be relesed in the next few months.
+
+
+Compability
+============
+
+Perl 6 is not be compatible with Perl 5 but there are several plans
+on how to transit from Perl 5 to Perl 6 is that is what you would like to.
+
+One plan is to create a Perl 5 to Perl 6 translator.
+
+Another plan is that the Perl 6 engine will be able to recognize Perl 5 
+code and use the Perl 5 engine where needed.
+
+
+
+
+Everything is an object
+===========
+
+    say "Perl 6 rocks".chars;
+
+
+Interpolation expressions
+===========
+
+    my @names = ("Foo", "Bar", "Moo");
+    say "Hello { join(', ', @names) } how are you?";
+
+The output will look like this:
+
+    Hello Foo, Bar, Moo how are you?
+
+
+Junctions
+===========
+
+Instead of  
+
+    if ($age == 3 or $age == 4 or $age == 5) {
+    }
+
+you will be able to write
+
+    if ($age == 3|4|5) {
+    }
+
+
+for loop
+===========
+
+One element a time
+------------------
+
+    my @fellows = <Foo Bar Baz>;
+    for @fellows -> $name {
+        say $name;
+    }
+
+
+Two elements a time
+-------------------
+
+    my @phones = <Foo 123 Bar 456 Moo 789>;
+    for @phones -> $name, $number {
+        say "$name  $number";
+    }
+
+Going over elements of a hash
+------------------------------
+
+    my %phone = (
+        "Foo" => 123,
+        "Bar" => 456,
+    );
+
+    for %phone -> $key, $value {
+        say "$key $value";
+    }
+
+
+Several elements at a time
+--------------------------
+
+    my @scores = <
+        Valencia         1  1  Recreativo_Huelva
+        Athletic_Bilbao  2  5  Real_Madrid
+        Malaga  	     2  2  Sevilla_FC
+        Sporting_Gijon   3  2  Deportivo_La_Coruna
+     	Valladolid 	     1  0  Getafe
+     	Real_Betis 	     0  0  Osasuna
+     	Racing_Santander 5  0  Numancia
+     	Espanyol         3  3  Mallorca
+     	Atletico_Madrid  3  2  Villarreal
+     	Almeria          0  2  Barcelona
+    >;
+
+    for @scores -> $home, $home_score, $guest_score, $guest {
+        say "$home $guest $home_score : $guest_score";
+    }
+
+Missing values
+----------------
+
+    for (1, 2, 3, 4, 5) -> $x, $y {
+        say "$x $y";
+    }
+
+Will generate the following:
+
+    1 2
+    3 4
+    StopIteration
+
+But we can say the second value is optional:
+
+    for (1, 2, 3, 4, 5) -> $x, $y? {
+            say "$x $y";
+    }
+
+
+Iterating over more than one array in parallel
+----------------------
+
+
+    my @chars   = <a b c>;
+    my @numbers = <1 2 3>;
+
+    for @chars Z @numbers -> $letter, $number {
+        say "$letter $number";
+    }
+
+    a 1
+    b 2
+    c 3
+
+
+Infinite lists
+--------------
+
+    for (1..Inf) -> $i {
+
+
+    }
+
+
+The last element of an infinite lists
+--------------------------------------
+
+
+    (1..Inf)[*-1]
+
+
+
+
+Grammars
+===========
+
+
+CPAN - proto
+==============
+
+
+How to get involved?
+===================
+
+IRC: #perl6 on freenode.net 
+
+Mailing list
+
+Web site:  http://perl6.org/
+
+
