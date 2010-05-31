@@ -1,0 +1,56 @@
+
+Logos taken from the various project web sites in order to make it
+easier to create a postcard along with some text that can be addedd
+to the postcard.
+
+Parrot
+  text: A dynamic language virtual machine.
+  url: http://www.parrot.org/
+  src: http://www.parrot.org/files/parrotify_logo.png
+  file: parrotify_logo.png
+
+Perl 6
+  text: "We're really serious about reinventing  everything that needs reinventing." – Larry Wall
+  url: http://www.perl6.org/
+  src: http://www.perl6.org/camelia-logo.png
+  file: camelia-logo.png
+
+Rakudo
+  text: A stable Perl 6 compiler for Parrot, coming Q2 2010.
+  url: http://rakudo.org/
+  src: http://rakudo.org/sites/default/files/logo.png
+  file: rakudo-logo.png
+
+Moose:
+  text: Post-modern object system for Perl. 
+  url: http://www.iinteractive.com/moose/
+  src:
+  file:
+
+Catalyst:
+  text: A Perl web framework.
+  url: http://www.catalystframework.org/
+  src: http://www.catalystframework.org/images/layout/catalyst_130pix.gif
+  file: catalyst_130pix.gif
+
+Padre:
+  text: The Perl IDE. 
+  url: http://padre.perlide.org/
+  src: http://padre.perlide.org/static/logo.png
+  file: padre-logo.png
+
+CPAN:
+  text: All things Perl. More than 6 GB. Over 19,600 modules.
+  url: cpan.org
+  src: http://www.cpan.org/misc/jpg/cpan.jpg
+  file: cpan.jpg
+
+Perl 5
+  text: 
+
+DBIx::Class
+
+Strawberry Perl
+
+
+
