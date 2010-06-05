@@ -24,8 +24,8 @@ Rakudo
 Moose:
   text: Post-modern object system for Perl. 
   url: http://www.iinteractive.com/moose/
-  src:
-  file:
+  src: http://static.lulu.com/product/item/moose/5187831/thumbnail/320
+  file: moose.jpg
 
 Catalyst:
   text: A Perl web framework.
@@ -45,6 +45,12 @@ CPAN:
   src: http://www.cpan.org/misc/jpg/cpan.jpg
   file: cpan.jpg
 
+Mojolicious:
+  text:
+  url:
+  src: http://mojolicious.org/mojolicious.png
+  file: mojolicious.png
+
 Perl 5
   text: 
 
@@ -53,4 +59,9 @@ DBIx::Class
 Strawberry Perl
 
 
+Foo:
+  text: Foo, German Perl Magazin
+  url: http://www.perl-magazin.de/
+  src: http://www.perl-magazin.de/images/path2470.gif
+  file: foo-perl-magazin.gif
 
