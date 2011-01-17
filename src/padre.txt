@@ -1,0 +1,55 @@
+Padre, the Perl IDE
+
+is an integrated development environment, or in other words a text
+editor that is simple to use for new Perl programmers but also
+supports large multi-lingual and multi-technology projects.
+
+For beginners and people with relatively little experience in Perl,
+Padre can make a huge difference in productivity and in understanding
+the language.
+
+
+Features
+  * The standard features you would expect from any "programmer's editor"
+  * Customizable syntax highlighting for many languages
+  * Multi-platform: Runs on Windows, Linux, Mac OS X
+  * Free and Open Source
+  * Session management
+  * Easy to enhance or tailor to your needs: Padre is written in Perl 5.
+
+Special Features
+  * Find Unmatched brace
+  * Find Variable declaration
+  * Find Method declaration
+  * Outline of the code showing pramgas, modules and methods
+  * Syntax checking for Perl 5 and Perl 6
+  * Refactoring tools for Perl 5 and Perl 6
+    - Rename Variable understanding lexical scope! Differentiating
+between $x and $x[0]
+    - Extract Subroutine
+    - Introduce temporary variable
+    - Move POD to __END__
+  * Regular Expression Editor
+  * Beginner mode to identify errors beginners make
+  * Automatic or manual Project management
+    Recognizing the standard directory layout of Perl projects
+including test files
+  * Context sensitive help and code completion for Perl 5 and Perl 6
+    Padre can provide help for the keywords of both languages and for
+many of the operators as well
+ * Built-in debugger for Perl 5
+ * Quick Menu access - if you don't find a menu option, just type in a
+few letters from its name and voila, you found the path to the item
+ * Open Resource - Allows opening files without navigating through
+many levels of the filesystem
+ * Perl Tidy - allows the standardization of code formatting.
+ * Perl Critic - allows checking the code against a pre-defined set of rules.
+ * Spell Checker - to make sure the documentation in our code does not
+have typos
+ * Nopaste integration
+
+Other add-ons:
+ * Catalyst development environment
+ * Mojolicious development environment
+ * WebGUI development environment
+
