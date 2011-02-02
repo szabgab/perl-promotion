@@ -6,3 +6,19 @@ for details
 
 Some idea of format from the PostgreSQL people:
 http://pgfoundry.org/docman/?group_id=1000047
+
+
+TODO: White Papers / flyers
+----------------------------
+
+   1. Rakudo (and Perl 6 in general) – http://www.rakudo.org/
+   2. Parrot – http://www.parrot.org/
+   3. Dancer – http://www.perldancer.org/
+   4. Catalyst – http://www.catalystframework.org/
+   5. Mojolicious – http://mojolicious.org/
+   6. Padre – http://padre.perlide.org/ –   see src
+   7. DBI and DBIx::Class
+   8. POE and some of its usage
+   9. Testing with Perl - see src
+
+   Any other white Paper you think is interesting/relevant
